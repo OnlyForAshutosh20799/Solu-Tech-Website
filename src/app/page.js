@@ -1,6 +1,7 @@
 import HeroCarousel from "@/components/HeroCarousel";
 import AboutSection from "@/components/home/AboutSection";
 import BlogSection from "@/components/home/BlogSection";
+import CaseStudiesSection from "@/components/home/CaseStudiesSection";
 import ContactSection from "@/components/home/ContactSection";
 import FeaturesSection from "@/components/home/FeaturesSection";
 import Footer from "@/components/home/Footer";
@@ -19,9 +20,11 @@ export default function Home() {
         <HeroCarousel />
         <ServicesSection />
         <AboutSection />
+        <CaseStudiesSection/>
+            <Testimonials />
         {/* <FeaturesSection />
         <PortfolioSection />
-        <Testimonials />
+    
         <BlogSection />
         <ContactSection /> */}
       </main>

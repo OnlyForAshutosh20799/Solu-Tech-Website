@@ -7,9 +7,9 @@ import Button from "./reusable/Button";
 
 export default function HeroSection() {
   return (
-    <main className="bg-[#050A1E] flex flex-col md:flex-row items-start lg:items-center justify-between  overflow-hidden bg-dark mt-14">
+    <main className="bg-[#050A1E] flex flex-col md:flex-row items-start lg:items-center justify-between  overflow-hidden bg-dark ">
       {/* Left Side */}
-      <div>
+      <div className="mt-40">
       <div className=" absolute w-full lg:w-1/2 z-10 circle-bg p-6 md:p-12 flex items-center lg:items-start justify-start flex-col lg:ml-15 lg:mt-5">
         <p className="text-[#FF3C00] uppercase tracking-wide text-sm font-semibold mb-3 flex items-center gap-2">
           <span className="w-3 h-[5px] mt-1 rounded-full bg-[#FF3C00] inline-block"></span>
