@@ -5,13 +5,8 @@ export default function ServicesSection() {
     <section className="py-12 bg-gray-100">
       <div className="container mx-auto text-center">
         <div className="flex items-center justify-center gap-4">
-  {/* Left gradient line (dark → light) */}
   <div className="h-[2px] w-16 bg-gradient-to-r from-orange-800 to-orange-100 rounded-full"></div>
-
-  {/* Center text */}
   <h2 className="text-sm text-orange-600 uppercase mb-2">Our Services</h2>
-
-  {/* Right gradient line (light → dark) */}
   <div className="h-[2px] w-16 bg-gradient-to-l from-orange-800 to-orange-100 rounded-full"></div>
 </div>
 

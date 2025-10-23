@@ -1,8 +1,9 @@
 import React from "react";
+import Button from "./reusable/Button";
 
 export default function AboutSection() {
   return (
-    <section className="py-16 bg-gray-50 relative">
+    <section className="pt-16 bg-gray-50 relative">
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 mb-8 md:mb-0">
           <div className="relative">
@@ -61,12 +62,10 @@ export default function AboutSection() {
               </div>
             </div>
           </div>
-          <button className="bg-orange-500 text-white px-6 py-2 rounded-full hover:bg-orange-600 transition">
-            Explore More
-          </button>
+          <Button name="Explore More"/>
         </div>
       </div>
-      <div className="mt-12 bg-orange-500 text-white p-6 flex justify-around items-center rounded-lg">
+      <div className="mt-12 bg-orange-500 text-white p-6 flex justify-around items-center rounded-t-lg">
         <div className="text-center">
           <h3 className="text-2xl font-bold">120k</h3>
           <p>Satisfied Clients</p>

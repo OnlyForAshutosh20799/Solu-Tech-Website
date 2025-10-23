@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from './reusable/Button';
 
 export default function CaseStudiesSection() {
   return (
@@ -18,9 +19,9 @@ export default function CaseStudiesSection() {
              <div className="h-[2px] w-13 bg-gradient-to-r from-[#FF3C00]  to-gray-800 "></div>
             <p className="text-[#FF3C00] text-md ">MOBILE APP DESIGN</p>
             </div>
-            <button className="bg-[#FF3C00] font-semibold text-sm md:text-md text-white md:px-5 px-4 md:py-3 py-2 rounded-full hover:bg-orange-600 transition mt-10 md:mt-30">
-              VIEW MORE DETAILS
-            </button>
+            <Button name='VIEW MORE DETAIL' 
+            className='mt-10 md:mt-30'
+            />
             </div>
             <div className='mt-15 md:mt-0'>
               <img src="https://solutek-html.netlify.app/assets/images/home-3/case-studies.png" alt="Travel & Tour Mobile Apps Design" className="rounded-lg mb-4" />

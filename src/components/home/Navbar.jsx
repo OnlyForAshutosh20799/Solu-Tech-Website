@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Image from "next/image";
 import {
   FaFacebookF,
   FaTwitter,
@@ -13,6 +14,7 @@ import {
 } from "react-icons/io5";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { FiMenu } from "react-icons/fi";
+import logo from '../../../public/assest/logo.png'
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -56,11 +58,10 @@ export default function Navbar() {
       {/* ===== Main Navbar ===== */}
       <nav className="bg-white flex flex-wrap justify-between items-center px-6 py-4 shadow-md relative">
         {/* Logo */}
-        <div className="flex items-center space-x-2">
-          <div className="w-8 h-8 bg-gradient-to-br from-[#FF3C00] to-[#FF7433] rounded-full"></div>
-          <h1 className="text-2xl font-bold text-[#050A1E]">
-            Solu<span className="text-[#FF3C00]">Tek</span>
-          </h1>
+        <div className="">
+         <Image src={logo} alt="logo" 
+         className="h-15 w-20"
+         />
         </div>
 
         {/* Menu Items */}
