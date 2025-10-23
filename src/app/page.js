@@ -19,13 +19,13 @@ export default function Home() {
         <HeroCarousel />
         <ServicesSection />
         <AboutSection />
-        <FeaturesSection />
+        {/* <FeaturesSection />
         <PortfolioSection />
         <Testimonials />
         <BlogSection />
-        <ContactSection />
+        <ContactSection /> */}
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
